@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohit - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            background-color: rgb(18, 18, 62);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.01rem;
+        }
+
+        main hr {
+            border: 0;
+            background-color: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 110px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 2.5rem;
+
+        }
+        .leftSection .buttons{
+            padding: 50px 0;
+        }
+        .leftSection .btn{
+            padding: 12px;
+            background: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+
+        }
+
+        .rightSection img {
+            width: 90%;
+
+        }
+
+        .purple {
+            color: rgb(170, 107, 228);
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(170, 107, 228);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 77px;
+            width: 150px;
+            font-size: 14px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+
+        footer {
+            background-color: #0e0e1a;
+          
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer > div{
+            width: 223px;
+        }
+        footer .footer-rights{
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Rohit's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Rohit</span>
+
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="https://www.multirecruit.com/wp-content/uploads/2022/05/web-developer-do.png" alt="">
+            </div>
+
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Technologies and Tools</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top"
+                        src="https://wallpapers.com/images/high/web-developerat-work-illustration-png-9wxnnbpbatv5o2dn.png"
+                        alt="">
+                    <div class="vertical-title">
+                        HTML Developer
+                    </div>
+                    <div class="vertical-desc">
+                        I have hands-on experience in building user-friendly and responsive web pages using HTML.
+                        While working on projects like a Currency Converter application,
+                        I gained proficiency in structuring content effectively and ensuring accessibility.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top"
+                        src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/45/61/14/456114a0-c3d8-2c40-5205-526287f7f492/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/246x0w.webp"
+                        alt="">
+                    <div class="vertical-title">
+                        C++ Developer
+                    </div>
+                    <div class="vertical-desc">
+                        My journey with C++ has helped me build a strong foundation in Object-Oriented Programming and Data Structures.
+                        I have used C++ to solve complex problems and optimize algorithms,
+                        further strengthening my logical thinking and problem-solving skills.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top"
+                        src="https://toppng.com/uploads/preview/mysql-logo-transparent-png-11660514452dpmhlmltoj.png"
+                        alt="">
+                    <div class="vertical-title">
+                        My SQL
+                    </div>
+                    <div class="vertical-desc">
+                        I have used MySQL to design and manage databases for various projects.
+                        I am skilled in writing efficient queries to retrieve, update, and manage data. 
+                        This knowledge has been instrumental in developing applications requiring robust database solutions.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top"
+                        src="https://images.ctfassets.net/vtn4rfaw6n2j/7MpGhY3NgmNo3IG3CooevL/4dd9d3f36dafb18671a4b043b542b12b/agile.png"
+                        alt="">
+                    <div class="vertical-title">
+                        Agile
+                    </div>
+                    <div class="vertical-desc">
+                        Through my certification in Agile from HP, I have gained a deep understanding of Agile methodologies,
+                        including Scrum and Kanban.This has enhanced my ability to work collaboratively in a team, 
+                        deliver iterative improvements, and manage projects efficiently.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top"
+                        src="https://www.javaindia.in/blog/wp-content/uploads/2023/02/java-developer.jpg" alt="">
+                    <div class="vertical-title">
+                        Java Developer
+                    </div>
+                    <div class="vertical-desc">
+                        Java is my favorite programming language, and I have leveraged it to build several projects. 
+                        My knowledge spans from understanding core Java concepts to implementing advanced topics like multithreading and file handling. 
+                        This has solidified my ability to develop scalable and efficient applications.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top"
+                        src="https://miro.medium.com/v2/resize:fit:828/format:webp/0*Bs43h1reQ0NZ2C91.png" alt="">
+                    <div class="vertical-title">
+                        React.js
+                    </div>
+                    <div class="vertical-desc">
+                        Learning React.js has enabled me to create dynamic and modern web applications. 
+                        I have worked on building reusable components and managing application states effectively, 
+                        which has improved my front-end development skills significantly.
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Rohit's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; Rohitsportfolio.com | All rights reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Web Designer', 'Software Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
